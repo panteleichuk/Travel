@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Treaco</title>
+        <link rel="stylesheet" href="../src/style.css">
+        <link rel="icon" href="../src/icon.png">
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+    </head>
+    <body>
+        <header>
+            <section class="gradient-pp vh-100">
+                <div class="container">
+                  <h1 class="title text-center pt-5">
+                    <span>T</span>
+                    <span>r</span>
+                    <span>e</span>
+                    <span>a</span>
+                    <span>c</span>
+                    <span>o</span>
+                    <img src="src\icon.png">
+                    <span>T</span>
+                    <span>r</span>
+                    <span>e</span>
+                    <span>a</span>
+                    <span>c</span>
+                    <span>o</span>
+                    
+                </h1>
+
+                </div>
+                <div class="position-absolute w-100 bottom-0">
+                    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 24 150 40" preserveAspectRatio="none" shape-rendering="auto">
+                      <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                      </defs>
+                      <g class="moving-waves">
+                        <use xlink:href="#gentle-wave" x="48" y="-1" fill="rgba(255,255,255,0.40)" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.35)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.25)" />
+                        <use xlink:href="#gentle-wave" x="48" y="8" fill="rgba(255,255,255,0.20)" />
+                        <use xlink:href="#gentle-wave" x="48" y="13" fill="rgba(255,255,255,0.15)" />
+                        <use xlink:href="#gentle-wave" x="48" y="16" fill="rgba(255,255,255,1)" />
+                      </g>
+                    </svg>
+                  </div>
+            </section>
+        </header>
+        <div class="basket" onclick="showBasket()">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bag-plus-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M8.5 8a.5.5 0 0 0-1 0v1.5H6a.5.5 0 0 0 0 1h1.5V12a.5.5 0 0 0 1 0v-1.5H10a.5.5 0 0 0 0-1H8.5z"/>
+          </svg>
+        </div>
+        <nav>
+            <div class="container1">
+            <div class="dropdown">
+              <div id="basic-select" class="selected">
+                <span id="select-title" class="selected__title">Main</span>
+                <div class="carpet"></div>
+              </div>
+              <ul id="option-select" class="options">
+                <li class="options__item options__item--active main">Main</li>
+                <li class="options__item all">All</li>
+                <li class="options__item category">Category</li>
+              </ul>
+            </div>
+            <input class="sr"  type="search" id="search" placeholder="Search..." />
+          </div>
+         
+        </nav>
+        <main>
+            
+        </main>
+        <footer class="foft">
+          <div>
+            <a href="https://www.tiktok.com/@logika__library">
+              <img class="a_img" src="..\src\tiktok.png">
+            </a>
+            <a class="a_font" href="https://www.tiktok.com/@logika__library">TitTok</a>
+          </div>
+        </footer>
+        <script src="../module/animebtm.js"> </script>
+        <script type="module" src="../module/lp.js"> </script>
+
+        <script src="../module/index.js"> </script>
+        <script src="../module/basket.js"> </script>
+        <script src="../module/search.js"> </script>
+    </body>
+</html>
